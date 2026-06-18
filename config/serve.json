@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://e61620.sharepoint.com/SitePages/Forms/ByAuthor.aspx",
+      "pageUrl": "https://{TenantDomain}/SitePages/Forms/ByAuthor.aspx",
       "customActions": {
         "ed0df88d-8564-4098-818e-0a1bfea911c1": {
           "location": "ClientSideExtension.ListViewCommandSet",
@@ -14,7 +14,7 @@
       }
     },
     "viewAnalytics": {
-      "pageUrl": "https://e61620.sharepoint.com/SitePages/Forms/ByAuthor.aspx",
+      "pageUrl": "https://{TenantDomain}/SitePages/Forms/ByAuthor.aspx",
       "customActions": {
         "ed0df88d-8564-4098-818e-0a1bfea911c1": {
           "location": "ClientSideExtension.ListViewCommandSet",
