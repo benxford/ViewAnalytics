@@ -5,6 +5,16 @@
         RegistrationId="101"
         RegistrationType="List"
         Location="ClientSideExtension.ListViewCommandSet"
+        Sequence="0"
+        ClientSideComponentId="ed0df88d-8564-4098-818e-0a1bfea911c1"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+    <CustomAction
+        Title="ViewAnalytics"
+        RegistrationId="119"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet"
+        Sequence="0"
         ClientSideComponentId="ed0df88d-8564-4098-818e-0a1bfea911c1"
         ClientSideComponentProperties="{}">
     </CustomAction>

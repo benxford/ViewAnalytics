@@ -3,7 +3,7 @@
   "solution": {
     "name": "view-analytics-client-side-solution",
     "id": "4cf2e037-f1f3-49e9-b017-80a8ebc7d8f1",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

@@ -48,8 +48,8 @@ export default class ViewAnalyticsCommandSet extends BaseListViewCommandSet<IVie
         }); 
         const analytics = await response.json();
 
-        const allTime = analytics.analytics.allTime.access.actionCount;
-        const lastSevenDays = analytics.analytics.lastSevenDays.access.actionCount;
+        const allTime = analytics?.analytics?.allTime?.access?.actionCount || '0';
+        const lastSevenDays = analytics?.analytics?.lastSevenDays?.access?.actionCount || '0';
 
         const dialog: AnalyticsDialog = new AnalyticsDialog(allTime, lastSevenDays);
         await dialog.show();
