@@ -14,9 +14,8 @@ lib-commonjs
 lib-esm
 jest-output
 release
-solution
+debug
 temp
-*.sppkg
 .heft
 
 # Coverage directory used by tools like istanbul
