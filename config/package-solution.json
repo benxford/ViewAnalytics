@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "view-analytics-client-side-solution",
+    "id": "4cf2e037-f1f3-49e9-b017-80a8ebc7d8f1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Deploys a custom action that displays the view analytics dialog."
+      },
+      "longDescription": {
+        "default": "Deploys a custom action that displays the view analytics dialog."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "View Analytics Feature",
+        "description": "Deploys a custom action that displays the view analytics dialog.",
+        "id": "e7e17d1a-5571-4f83-8e96-6331c0d361c9",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/view-analytics.sppkg"
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ViewAnalytics"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet"
+        ClientSideComponentId="ed0df88d-8564-4098-818e-0a1bfea911c1"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>

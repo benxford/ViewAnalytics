@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.3",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "view-analytics",
+    "libraryId": "4cf2e037-f1f3-49e9-b017-80a8ebc7d8f1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "view-analytics",
+    "solutionShortDescription": "view-analytics description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
